@@ -82,7 +82,7 @@ var DistributionPoint = assets.AssetType{
 			// Optional property
 			Tag:      "Distributionstatus",
 			Label:    "Status",
-			DataType: "status",
+			DataType: "string",
 			Writers:  []string{`org1MSP`, "orgMSP"},
 		},
 		{
@@ -90,13 +90,6 @@ var DistributionPoint = assets.AssetType{
 			Tag:      "lastInspectionDate",
 			Label:    "Last Inspection Date",
 			DataType: "datetime",
-			Writers:  []string{`org1MSP`, "orgMSP"},
-		},
-		{
-			// Optional property
-			Tag:      "inspectionStatus",
-			Label:    "Inspection Status",
-			DataType: "inspectionStatus",
 			Writers:  []string{`org1MSP`, "orgMSP"},
 		},
 		{
@@ -117,7 +110,7 @@ var DistributionPoint = assets.AssetType{
 			// Optional property
 			Tag:      "inventory",
 			Label:    "Inventory",
-			DataType: "inventory",
+			DataType: "string",
 			Writers:  []string{`org1MSP`, "orgMSP"},
 		},
 	},
