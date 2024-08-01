@@ -169,6 +169,51 @@ The GrainBee API provides endpoints for managing rations, members, inventory, di
 - **Mock Tests**: Utilize mock stubs to simulate blockchain interactions.
 - **Integration Tests**: Ensure that the backend and frontend components interact correctly.
 
+## Blockchain Visualization
+
+### Overview of Blockchain Structure
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/10.jpeg?raw=true" width="1280" alt="Overview of Blockchain Structure">
+
+### Full view of the entry form
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/4.png?raw=true" width="1280" alt="Full view of the entry form">
+
+### Manage Members
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/5.png?raw=true" width="1280" alt="Manage Members">
+
+
+### Detailed View of a Member Assets
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/1.png?raw=true" width="1280" alt="Detailed View of a Member Assets">
+
+
+### Detailed View of a Ration Card
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/2.png?raw=true" width="1280" alt="Detailed View of Detailed View of a Ration Card">
+
+### Curl Commands for Blockchain Operations
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/3.png?raw=true" width="1280" alt="Curl Commands for Blockchain Operationin Blockchain">
+
+### Create Distributor
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/6.png?raw=true" width="1280" alt="Create Distributor">
+
+### Ration Management
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/7.png?raw=true" width="1280" alt="Ration Management">
+
+### Get Member QR Code
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/8.png?raw=true" width="1280" alt="Get Member QR Code">
+
+### Read Member Information
+
+<img src="https://github.com/JonyBepary/Grainbee_Blockchain/blob/main/images/9.png?raw=true" width="1280" alt="Read Member Information">
+
+
 ## Contributing
 
 ### Guidelines
