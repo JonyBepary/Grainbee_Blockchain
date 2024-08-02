@@ -84,24 +84,33 @@ The components interact as follows:
    rm install-fabric.sh
    ```
 
-3. **Create Docker Network**
 
-   Create a Docker network for the Fabric components:
+3. **Package Chaincode**
+
+   Package the chaincode using the following command:
    ```sh
-   docker network create cc-tools-demo-net
+   peer lifecycle chaincode package grainbee.tar.gz --path ../chaincode --lang golang --label grainbee_0.1
+
    ```
 
-4. **Bring Up the Network**
+4. **Install Chaincode**
+
+   Install the chaincode on the peer:
+   ```sh
+   peer lifecycle chaincode install grainbee.tar.gz
+   ```
+
+5. **Bring Up the Network**
 
    Start the Fabric network with the desired number of organizations (e.g., 3 organizations):
    ```sh
    ./network.sh up createChannel -n 3
    ```
 
-5. ** Package and Deploy Chaincode**
+6. ** Package and Deploy Chaincode**
 
    Deploy the chaincode to the network by following this [tutorial](https://hyperledger-fabric.readthedocs.io/en/release-1.3/chaincode4noah.html#packaging).
-6. **To deploy this chaincode in Amazon Managed Blockchain**
+7. **To deploy this chaincode in Amazon Managed Blockchain**
 
    Follow the documentation in this [link](https://docs.aws.amazon.com/managed-blockchain/latest/hyperledger-fabric-dev/what-is-managed-blockchain.html) to create a network in Amazon Managed Blockchain and deploy chain code.
 
@@ -255,3 +264,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact Information
 
 For support or inquiries, please contact the maintainers at [sohelahmedjony@gmail.com](mailto:sohelahmedjony@gmail.com).
+Finished vendoring Go dependencies
++ peer lifecycle chaincode package grainbee.tar.gz --path ../chaincode --lang golang --label grainbee_0.1
++ res=0
+Chaincode is packaged
+Installing chaincode on peer0.org1...
+Using organization 1
++
+
