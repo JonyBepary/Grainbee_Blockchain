@@ -261,14 +261,10 @@ The GrainBee API provides endpoints for managing rations, members, inventory, di
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact Information
+## Contact
 
-For support or inquiries, please contact the maintainers at [sohelahmedjony@gmail.com](mailto:sohelahmedjony@gmail.com).
-Finished vendoring Go dependencies
-+ peer lifecycle chaincode package grainbee.tar.gz --path ../chaincode --lang golang --label grainbee_0.1
-+ res=0
-Chaincode is packaged
-Installing chaincode on peer0.org1...
-Using organization 1
-+
+<!-- LinkedIn, X, Mail -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sohel-ahmed-jony/)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/jbepary)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sohelahmedjony@gmail.com)
 
